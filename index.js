@@ -17,11 +17,17 @@ const saludar = (name) => {
 
 }
 
+
+/**
+ * DENTRO DE LA PROGRAMACIÓN FUNCIONAL, EXISTE UN CONCEPTO LLAMADO
+ * PUREZA.
+ * LA PUREZA DE LAS FUNCIONES TE DICE QUE DEBEN SER LO MÁS INDEPENDIENTES POSIBLES. SUS ÚNICOS ACCESOS ESTÁN DENTRO DE LA MISMA FUNCIÓN Y A TRAVÉS DE SUS PARÁMETROS. NO MÁS.
+ * */ 
+
 const sumar = (a, b) => {
-
-    const resultado = a + b
-    return areaSuma.innerHTML = resultado
-
+    
+    return a + b
+    
 }
 
 // 3. EVENTOS
@@ -38,6 +44,8 @@ btnSumar.addEventListener("click", () => {
     const inputValorA   = parseInt(valorA.value)
     const inputValorB   = parseInt(valorB.value)
 
-    return sumar(inputValorA, inputValorB)
+    const resultado = sumar(inputValorA, inputValorB)
+
+    areaSuma.innerHTML = resultado
 
 })

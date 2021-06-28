@@ -13,6 +13,31 @@ En esta aplicación, vamos a desarrollar una calculadora.
 
 - Incluir un favicon
 
+
+## Características
+
+- Cuenta con una función de saludar.
+
+- Cuenta con una función de sumar.
+
+### Input
+
+`sumar(valorA, valorB)`
+
+- valorA (_number_). Número que representa el primer valor de la suma.
+- valorB (_number_). Número que representa el segundo valor de la suma.
+
+
+### Output
+
+- _number_. Retorna un número implicando la suma entre dos valores.
+
+
+
+
+
+
+
 ## Deployment
 
 - El despliegue se realizó en Netlify.
